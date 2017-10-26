@@ -1,0 +1,45 @@
+/* Search Styling */
+body .wrap .gsc-webResult.gsc-result {
+    border-bottom: $border-width solid $gray-lightest;
+    padding: 2em 0;
+}
+
+body .wrap .gsc-control-cse .gs-spelling, body .wrap .gsc-control-cse .gs-result .gs-title, body .wrap .gsc-control-cse .gs-result .gs-title *{
+    font-size: 22px;
+    color: #268bd2;
+}
+
+body .wrap .gs-webResult.gs-result a.gs-title:link, body .wrap .gs-webResult.gs-result a.gs-title:link b, body .wrap .gs-imageResult a.gs-title:link, body .wrap .gs-imageResult a.gs-title:link b {
+    color: #268bd2;
+}
+
+body .wrap .gs-webResult.gs-result a.gs-title:visited, body .wrap .gs-webResult.gs-result a.gs-title:visited b, body .wrap .gs-imageResult a.gs-title:visited, body .wrap .gs-imageResult a.gs-title:visited b {
+    color: #850086;
+}
+
+body .wrap .gs-webResult div.gs-visibleUrl-long {
+    display: block;
+    font-size: 16px;
+}
+
+body .wrap .gsc-cursor-box.gs-bidi-start-align {
+    text-align: center;
+    padding: 2em;
+}
+
+body .wrap .gsc-results .gsc-cursor-page {
+    font-size: 18px;
+    display: inline-block /*!important*/;
+    border: $border-width solid $gray-lighter;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 7px;
+}
+
+
+.gsc-control-cse .gs-spelling, .gsc-control-cse .gs-result .gs-title, .gsc-control-cse .gs-result .gs-title * {
+    font-size: 23px;
+    line-height: 26px;
+    text-decoration: none;
+}

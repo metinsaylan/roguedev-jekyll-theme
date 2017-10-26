@@ -1,0 +1,28 @@
+---
+---
+
+/* OWNER */
+    Name: Metin Şaylan
+    Twitter: @metinsaylan
+
+{% comment %}
+{% for author in site.data.authors %}
+    {{ author[1].display_name }} - @{{ author[1].twitter }}
+{% endfor %}
+{% endcomment %}
+
+/* THANKS */
+    To my beloved family..
+    ❤ : Ceren
+    ♚ : Hasan
+    ♛ : Gülşen
+    ♜ : Yasemin
+    ♞ : Gülçin
+
+/* SITE */
+    Last update: {{ site.time | date: '%F' }}
+    Language: English / Turkish
+    Standards: HTML5, Sass, CSS3
+    Software: Jekyll, Github Pages, Atom, Notepad++, Github Desktop (Windows), Spotify, Soundcloud
+
+    Colors: Gray 383838 Blue 65A2DB Purple 9300AD

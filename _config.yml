@@ -1,14 +1,14 @@
 name:                 metinsaylan // rogue developer
 
 # Site settings
-title:                metinsaylan
-tagline:              'rogue developer'
-description: >
-    metinsaylan's ramblings about code, computers and anything else.
-url:                  http://metinsaylan.com
-imgbase:              https://s3.eu-central-1.amazonaws.com/ms.static #will change this after moving files
-baseurl:              '' # the subpath of your site, e.g. /blog
-permalink:            pretty   # how should we display posts url
+title:        roguedev
+tagline:      jekyll theme
+description:  a minimalistic jekyll theme for developers
+url:          http://metinsaylan.com
+imgbase:      https://s3.eu-central-1.amazonaws.com/ms.static
+baseurl:      '' # the subpath of your site, e.g. /blog
+permalink:    pretty   # how should we display posts url
+author:       metinsaylan
 
 
 # Site settings
@@ -16,15 +16,17 @@ sharing_enabled: true
 ads_enabled: true
 
 # Put your ga tracking code below
-google_analytics: 'UA-71121803-4'
+# google_analytics: 'UA-12345678'
+# facebook_app_id: false
+# twitter: metinsaylan
 author: metinsaylan
-disqus: metinsaylan
+# disqus: metinsaylan
 
 webmaster_verifications:
-  google: ZNDM89tabGCDIF8eb5Fsb449XDnbLdxDo9urtNgGi1I
+  #google: 1234
   #bing: 1234
   #alexa: 1234
-  yandex: 9895a471682d1a91
+  #yandex: 1234
 
 # Pagination settings
 paginate: 5                           # number of posts to show per page
@@ -38,12 +40,6 @@ navigation:
   - title: Projects
     url: /projects/
     desc: Stuffs I like to do
-  - title: Notes
-    url: /notes/
-    desc: My notes about anything
-  - title: Lists
-    url: /lists/
-    desc: Stuffs I like to keep
   - title: About
     url: /about/
     desc: Learn about me
@@ -53,9 +49,6 @@ navigation:
   - title: Donate
     url: /donate/
     desc: Support me!
-#  - title: Search
-#    url: /search/
-#    desc: Search this site!
 
 # Where are tags and categories displayed
 tag_page: '/tags/'

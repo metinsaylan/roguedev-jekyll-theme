@@ -18,4 +18,6 @@ Sample posts can be found under `_posts` folder. I also included some sample pro
 
 This theme is a mixture of 3 themes:
 
-* Amplify
+* [Jackal](https://github.com/clenemt/jackal)
+* [Lanyon](http://lanyon.getpoole.com/)
+* [Amplify](https://github.com/ageitgey/amplify)

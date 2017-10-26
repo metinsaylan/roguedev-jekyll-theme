@@ -52,9 +52,9 @@ layout: default
 
 <aside class="pagination mt mb pad" role="navigation">
   {% if page.previous.url %}
-    <a class="pagination-item older" href="{{page.previous.url}}">{{page.previous.title}}</a>
+    <a class="pagination-item older" href="{{site.baseurl}}{{page.previous.url}}">{{page.previous.title}}</a>
   {% endif %}
   {% if page.next.url %}
-    <a class="pagination-item newer" href="{{page.next.url}}">{{page.next.title}}</a>
+    <a class="pagination-item newer" href="{{site.baseurl}}{{page.next.url}}">{{page.next.title}}</a>
   {% endif %}
 </aside>

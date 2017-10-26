@@ -50,7 +50,7 @@ layout: default
   <a href="https://google.com/search?q={{ page.title | cgi_escape }}" target="_blank">Search <em>{{ page.title }}</em> on Google</a>
 </div>
 
-<aside class="pagination mt mb" role="navigation">
+<aside class="pagination mt mb pad" role="navigation">
   {% if page.previous.url %}
     <a class="pagination-item older" href="{{page.previous.url}}">{{page.previous.title}}</a>
   {% endif %}

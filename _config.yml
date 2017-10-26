@@ -5,7 +5,7 @@ title:        roguedev
 tagline:      jekyll theme
 description:  a minimalistic jekyll theme for developers
 url:          http://metinsaylan.com
-imgbase:      http://metinsaylan.com/roguedev-jekyll-theme/images
+imgbase:      http://metinsaylan.com/roguedev-jekyll-theme/images/
 baseurl:      '/roguedev-jekyll-theme' # the subpath of your site, e.g. /blog
 permalink:    pretty   # how should we display posts url
 author:       metinsaylan

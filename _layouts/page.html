@@ -10,17 +10,9 @@ layout: default
     {% if page.desc %}<p class="lead p-summary">{{ page.desc }}</p>{% endif %}
   </header>
 
-  {% if site.ads_enabled %}
-  <div id="content-ad" class="mb"><amp-ad layout="fixed-height" height=120 type="adsense" data-ad-client="ca-pub-7680110371269676" data-ad-slot="1168999426"></amp-ad></div>
-  {% endif %}
-
   <div class="page-content e-content" role="main">
     {{ content }}
   </div>
-
-  {% if site.ads_enabled %}
-  <div id="content-ad" class="mb"><amp-ad layout="fixed-height" height=120 type="adsense" data-ad-client="ca-pub-7680110371269676" data-ad-slot="1168999426"></amp-ad></div>
-  {% endif %}
 
   {% include share.html %}
 

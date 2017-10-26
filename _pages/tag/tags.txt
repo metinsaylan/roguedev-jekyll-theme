@@ -1,6 +1,0 @@
----
-permalink: /tags.txt
----
-{% for tag in site.tags %}
-{{ tag[0] | slugify }}
-{% endfor %}

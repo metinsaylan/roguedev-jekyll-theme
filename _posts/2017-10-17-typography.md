@@ -1,5 +1,7 @@
 ---
 title: Typography
+category: 'Manual'
+tags: ['typography', 'usage']
 ---
 In this sample post you can see various typographic elements.
 

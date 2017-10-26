@@ -1,7 +1,8 @@
 <div class="post-share text-center">
   <amp-social-share type="email"></amp-social-share>
+{% if site.facebook_app_id %}
   <amp-social-share type="facebook"
-    data-param-app_id="119867775366202"></amp-social-share>
+    data-param-app_id="{{ site.facebook_app_id }}"></amp-social-share>{% endif %}
   <amp-social-share type="gplus"></amp-social-share>
   <amp-social-share type="linkedin"></amp-social-share>
   {% if page.image %}<amp-social-share type="pinterest"

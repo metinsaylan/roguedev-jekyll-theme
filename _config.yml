@@ -46,9 +46,6 @@ navigation:
   - title: Contact
     url: /contact/
     desc: Contact me
-  - title: Donate
-    url: /donate/
-    desc: Support me!
 
 # Where are tags and categories displayed
 tag_page: '/tags/'

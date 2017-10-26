@@ -2,7 +2,7 @@
 ---
 
 /* OWNER */
-    Name: Metin Şaylan
+    Name: RogueDev
     Twitter: @metinsaylan
 
 {% comment %}
@@ -13,16 +13,11 @@
 
 /* THANKS */
     To my beloved family..
-    ❤ : Ceren
-    ♚ : Hasan
-    ♛ : Gülşen
-    ♜ : Yasemin
-    ♞ : Gülçin
 
 /* SITE */
     Last update: {{ site.time | date: '%F' }}
-    Language: English / Turkish
+    Language: English
     Standards: HTML5, Sass, CSS3
-    Software: Jekyll, Github Pages, Atom, Notepad++, Github Desktop (Windows), Spotify, Soundcloud
+    Software: Jekyll, Github Pages, Atom, Spotify
 
     Colors: Gray 383838 Blue 65A2DB Purple 9300AD

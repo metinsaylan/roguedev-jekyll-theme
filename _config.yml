@@ -4,7 +4,7 @@ name:                 metinsaylan // rogue developer
 title:        roguedev
 tagline:      jekyll theme
 description:  a minimalistic jekyll theme for developers
-url:          http://metinsaylan.com/
+url:          http://metinsaylan.com
 imgbase:      https://s3.eu-central-1.amazonaws.com/ms.static
 baseurl:      '/roguedev-jekyll-theme' # the subpath of your site, e.g. /blog
 permalink:    pretty   # how should we display posts url

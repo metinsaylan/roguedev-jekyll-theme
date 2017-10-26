@@ -67,7 +67,7 @@ defaults:
   - scope:
       path: ''
     values:
-      author: metinsaylan
+      author: roguedev
       image: /assets/img/site-banner.png
   - scope:
       path: ''

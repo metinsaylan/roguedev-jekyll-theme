@@ -382,11 +382,13 @@ amp-gist {
       border-bottom-left-radius: 8px;
       border-top-left-radius: 8px;
       margin-bottom: 0;
+      padding-left: 40px;
     }
     &:last-child {
       border-bottom-right-radius: 8px;
       border-top-right-radius: 8px;
       margin-left: -3px;
+      padding-right: 40px;
     }
   }
   .sidebar {

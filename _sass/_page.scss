@@ -1,3 +1,7 @@
+// GRID ===========================================
+.grid { @include clearfix(); }
+.unit { float: left; }
+.unit.half { width: 50%; }
 // HEADER =========================================
 .masthead {
   background: #e8e8e8;
@@ -253,10 +257,11 @@ p.post-desc {
 }
 
 // PAGE WORK & PROJECTS ====================================
-
 .project {
   margin-right: $spacer;
-  font-size: 1rem;
+  border: $border-width solid $gray-lighter;
+  padding: $spacer;
+  margin-bottom: $spacer;
 }
 
 .project-title {
@@ -273,6 +278,14 @@ p.post-desc {
       border-bottom-color: $brand-color;
     }
   }
+}
+
+.project p {
+    font-size: 16px;
+    display: block;
+    height: 4.5em;
+    overflow: hidden;
+    margin-bottom: 0;
 }
 
 @include mq-up(md) {

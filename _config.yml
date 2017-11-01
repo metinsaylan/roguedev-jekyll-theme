@@ -17,9 +17,9 @@ sharing_enabled:  true
 # Put your ga tracking code below
 # google_analytics: 'UA-12345678'
 # facebook_app_id: false
-# twitter: metinsaylan
-author: metinsaylan
-# disqus: metinsaylan
+# twitter: johndoe
+author: johndoe
+# disqus: johndoe
 
 webmaster_verifications:
   #google: 1234

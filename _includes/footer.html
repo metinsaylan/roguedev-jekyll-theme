@@ -1,6 +1,6 @@
 
 <footer class="mb pb pt text-center muted clr">
-  &copy; 2017 - RogueDev
+  &copy; {{ site.time | date: '%Y' }} - <a href="{{ site.url }}{{ site.baseurl }}" class="muted">{{ site.title }}</a>
 </footer>
 
 {% if site.google_analytics %}

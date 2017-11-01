@@ -15,7 +15,14 @@
   {% if page.iframe %}<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>{% endif %}
   {% seo title=false %}
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,400,500" rel="stylesheet">
-  <style amp-custom>{% capture include_to_scssify %}{% include main.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>
+  <style amp-custom>{% capture include_to_scssify %}{% include main.scss %}{% endcapture %}{{ include_to_scssify | scssify }}
+
+  a:not( [href*='{{ site.url }}'] ):not( [href^='#'] ):not( [href^='/'] ):after {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==");
+    margin: 0 3px 0 5px;
+  }
+
+  </style>
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/assets/img/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">

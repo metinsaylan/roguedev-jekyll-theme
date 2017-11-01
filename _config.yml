@@ -12,8 +12,7 @@ author:       metinsaylan
 
 
 # Site settings
-sharing_enabled: true
-ads_enabled: true
+sharing_enabled:  true
 
 # Put your ga tracking code below
 # google_analytics: 'UA-12345678'

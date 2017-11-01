@@ -1,3 +1,5 @@
+---
+---
 @charset "utf-8";
 @import "variables";        // Your Sass variables should go there
 @import "mixins";           // Your additional mixins should go there
@@ -10,3 +12,8 @@
 
 @import "syntax";           // Styles specific to the pages
 @import "theme";            // Styles specific to the pages
+
+a:not( [href*='{{ site.url }}'] ):not( [href^='#'] ):not( [href^='/'] ):after {
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==");
+  margin: 0 3px 0 5px;
+}
